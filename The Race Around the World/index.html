@@ -1,0 +1,44 @@
+<!-- Submitted by Andrew Chiang -->
+<!-- Email: alchian@emory.edu -->
+<!-- Cell: (908)210-4391 -->
+
+<!-- There are two files in this program, which was designed to be as basic and compact as possible
+The filepath should look like this: -->
+
+<!-- The Race Around the World > js > stopwatch.js
+          |
+          |- index.html -->
+
+<!-- Requirements: A geolocation enabled web browser (chrome, firefox, safari, etc.) -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Race Around the World</title>
+  </head>
+
+<!-- The body implements 2 buttons, Start/Reset and Stop
+Start/Reset - triggers start() function
+Stop - triggers stop() function -->
+
+  <br>
+  <body>
+    <button type="button" onclick= "start();">
+      Start/Reset
+    </button>
+    <button type="button" onclick="stop();">
+      Stop
+    </button>
+  <br/>
+
+<!-- Body also implements a div for the history table to be generated -->
+
+<br>
+<div id="historyTable"></div>
+<br/>
+
+<!-- Javascript file used is stopwatch.js -->
+
+<script src="js/stopwatch.js"></script>
+</body>
+</html>
